@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D710472587F71900E009B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D710462587F71900E009B7 /* AppDelegate.swift */; };
+		24D710492587F71900E009B7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D710482587F71900E009B7 /* GameViewController.swift */; };
+		24D7104C2587F71900E009B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7104A2587F71900E009B7 /* Main.storyboard */; };
+		24D7104F2587F71900E009B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7104D2587F71900E009B7 /* LaunchScreen.storyboard */; };
+		24D710582587F71900E009B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D710572587F71900E009B7 /* AppDelegate.swift */; };
+		24D7105A2587F71900E009B7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D710592587F71900E009B7 /* GameViewController.swift */; };
+		24D7105D2587F71900E009B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7105B2587F71900E009B7 /* Main.storyboard */; };
+		24D710602587F71900E009B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7105E2587F71900E009B7 /* LaunchScreen.storyboard */; };
+		24D710692587F71900E009B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D710682587F71900E009B7 /* AppDelegate.swift */; };
+		24D7106B2587F71900E009B7 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7106A2587F71900E009B7 /* GameViewController.swift */; };
+		24D7106E2587F71900E009B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24D7106C2587F71900E009B7 /* Main.storyboard */; };
+		24D710712587F71900E009B7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103B2587F71800E009B7 /* Actions.sks */; };
+		24D710722587F71900E009B7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103B2587F71800E009B7 /* Actions.sks */; };
+		24D710732587F71900E009B7 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103B2587F71800E009B7 /* Actions.sks */; };
+		24D710742587F71900E009B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103C2587F71800E009B7 /* GameScene.sks */; };
+		24D710752587F71900E009B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103C2587F71800E009B7 /* GameScene.sks */; };
+		24D710762587F71900E009B7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103C2587F71800E009B7 /* GameScene.sks */; };
+		24D710772587F71900E009B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7103D2587F71800E009B7 /* GameScene.swift */; };
+		24D710782587F71900E009B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7103D2587F71800E009B7 /* GameScene.swift */; };
+		24D710792587F71900E009B7 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7103D2587F71800E009B7 /* GameScene.swift */; };
+		24D7107A2587F71900E009B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103E2587F71900E009B7 /* Assets.xcassets */; };
+		24D7107B2587F71900E009B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103E2587F71900E009B7 /* Assets.xcassets */; };
+		24D7107C2587F71900E009B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D7103E2587F71900E009B7 /* Assets.xcassets */; };
+		24D7108D2588013200E009B7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7108C2588013200E009B7 /* Player.swift */; };
+		24D71094258802EF00E009B7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7108C2588013200E009B7 /* Player.swift */; };
+		24D71098258802F300E009B7 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D7108C2588013200E009B7 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24D7103B2587F71800E009B7 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		24D7103C2587F71800E009B7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		24D7103D2587F71800E009B7 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		24D7103E2587F71900E009B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24D710432587F71900E009B7 /* dogRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D710462587F71900E009B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D710482587F71900E009B7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		24D7104B2587F71900E009B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D7104E2587F71900E009B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D710502587F71900E009B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D710552587F71900E009B7 /* dogRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D710572587F71900E009B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D710592587F71900E009B7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		24D7105C2587F71900E009B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D7105F2587F71900E009B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24D710612587F71900E009B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D710662587F71900E009B7 /* dogRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dogRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24D710682587F71900E009B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24D7106A2587F71900E009B7 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		24D7106D2587F71900E009B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24D7106F2587F71900E009B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24D710702587F71900E009B7 /* dogRunner_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dogRunner_macOS.entitlements; sourceTree = "<group>"; };
+		24D7108C2588013200E009B7 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24D710402587F71900E009B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710522587F71900E009B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710632587F71900E009B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24D710352587F71700E009B7 = {
+			isa = PBXGroup;
+			children = (
+				24D7103A2587F71800E009B7 /* dogRunner Shared */,
+				24D710452587F71900E009B7 /* dogRunner iOS */,
+				24D710562587F71900E009B7 /* dogRunner tvOS */,
+				24D710672587F71900E009B7 /* dogRunner macOS */,
+				24D710442587F71900E009B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24D7103A2587F71800E009B7 /* dogRunner Shared */ = {
+			isa = PBXGroup;
+			children = (
+				24D7108B2588011F00E009B7 /* Models */,
+				24D7103B2587F71800E009B7 /* Actions.sks */,
+				24D7103C2587F71800E009B7 /* GameScene.sks */,
+				24D7103D2587F71800E009B7 /* GameScene.swift */,
+				24D7103E2587F71900E009B7 /* Assets.xcassets */,
+			);
+			path = "dogRunner Shared";
+			sourceTree = "<group>";
+		};
+		24D710442587F71900E009B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24D710432587F71900E009B7 /* dogRunner.app */,
+				24D710552587F71900E009B7 /* dogRunner.app */,
+				24D710662587F71900E009B7 /* dogRunner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24D710452587F71900E009B7 /* dogRunner iOS */ = {
+			isa = PBXGroup;
+			children = (
+				24D710462587F71900E009B7 /* AppDelegate.swift */,
+				24D710482587F71900E009B7 /* GameViewController.swift */,
+				24D7104A2587F71900E009B7 /* Main.storyboard */,
+				24D7104D2587F71900E009B7 /* LaunchScreen.storyboard */,
+				24D710502587F71900E009B7 /* Info.plist */,
+			);
+			path = "dogRunner iOS";
+			sourceTree = "<group>";
+		};
+		24D710562587F71900E009B7 /* dogRunner tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				24D710572587F71900E009B7 /* AppDelegate.swift */,
+				24D710592587F71900E009B7 /* GameViewController.swift */,
+				24D7105B2587F71900E009B7 /* Main.storyboard */,
+				24D7105E2587F71900E009B7 /* LaunchScreen.storyboard */,
+				24D710612587F71900E009B7 /* Info.plist */,
+			);
+			path = "dogRunner tvOS";
+			sourceTree = "<group>";
+		};
+		24D710672587F71900E009B7 /* dogRunner macOS */ = {
+			isa = PBXGroup;
+			children = (
+				24D710682587F71900E009B7 /* AppDelegate.swift */,
+				24D7106A2587F71900E009B7 /* GameViewController.swift */,
+				24D7106C2587F71900E009B7 /* Main.storyboard */,
+				24D7106F2587F71900E009B7 /* Info.plist */,
+				24D710702587F71900E009B7 /* dogRunner_macOS.entitlements */,
+			);
+			path = "dogRunner macOS";
+			sourceTree = "<group>";
+		};
+		24D7108B2588011F00E009B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24D7108C2588013200E009B7 /* Player.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24D710422587F71900E009B7 /* dogRunner iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D7107F2587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner iOS" */;
+			buildPhases = (
+				24D7103F2587F71900E009B7 /* Sources */,
+				24D710402587F71900E009B7 /* Frameworks */,
+				24D710412587F71900E009B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dogRunner iOS";
+			productName = "dogRunner iOS";
+			productReference = 24D710432587F71900E009B7 /* dogRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D710542587F71900E009B7 /* dogRunner tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D710822587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner tvOS" */;
+			buildPhases = (
+				24D710512587F71900E009B7 /* Sources */,
+				24D710522587F71900E009B7 /* Frameworks */,
+				24D710532587F71900E009B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dogRunner tvOS";
+			productName = "dogRunner tvOS";
+			productReference = 24D710552587F71900E009B7 /* dogRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24D710652587F71900E009B7 /* dogRunner macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D710852587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner macOS" */;
+			buildPhases = (
+				24D710622587F71900E009B7 /* Sources */,
+				24D710632587F71900E009B7 /* Frameworks */,
+				24D710642587F71900E009B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dogRunner macOS";
+			productName = "dogRunner macOS";
+			productReference = 24D710662587F71900E009B7 /* dogRunner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24D710362587F71700E009B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					24D710422587F71900E009B7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					24D710542587F71900E009B7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					24D710652587F71900E009B7 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 24D710392587F71700E009B7 /* Build configuration list for PBXProject "dogRunner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24D710352587F71700E009B7;
+			productRefGroup = 24D710442587F71900E009B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24D710422587F71900E009B7 /* dogRunner iOS */,
+				24D710542587F71900E009B7 /* dogRunner tvOS */,
+				24D710652587F71900E009B7 /* dogRunner macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24D710412587F71900E009B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D710742587F71900E009B7 /* GameScene.sks in Resources */,
+				24D7104C2587F71900E009B7 /* Main.storyboard in Resources */,
+				24D710712587F71900E009B7 /* Actions.sks in Resources */,
+				24D7104F2587F71900E009B7 /* LaunchScreen.storyboard in Resources */,
+				24D7107A2587F71900E009B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710532587F71900E009B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D710752587F71900E009B7 /* GameScene.sks in Resources */,
+				24D7105D2587F71900E009B7 /* Main.storyboard in Resources */,
+				24D710722587F71900E009B7 /* Actions.sks in Resources */,
+				24D710602587F71900E009B7 /* LaunchScreen.storyboard in Resources */,
+				24D7107B2587F71900E009B7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710642587F71900E009B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D7106E2587F71900E009B7 /* Main.storyboard in Resources */,
+				24D710762587F71900E009B7 /* GameScene.sks in Resources */,
+				24D7107C2587F71900E009B7 /* Assets.xcassets in Resources */,
+				24D710732587F71900E009B7 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24D7103F2587F71900E009B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D7108D2588013200E009B7 /* Player.swift in Sources */,
+				24D710772587F71900E009B7 /* GameScene.swift in Sources */,
+				24D710492587F71900E009B7 /* GameViewController.swift in Sources */,
+				24D710472587F71900E009B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710512587F71900E009B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D71098258802F300E009B7 /* Player.swift in Sources */,
+				24D710782587F71900E009B7 /* GameScene.swift in Sources */,
+				24D7105A2587F71900E009B7 /* GameViewController.swift in Sources */,
+				24D710582587F71900E009B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D710622587F71900E009B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24D71094258802EF00E009B7 /* Player.swift in Sources */,
+				24D710792587F71900E009B7 /* GameScene.swift in Sources */,
+				24D7106B2587F71900E009B7 /* GameViewController.swift in Sources */,
+				24D710692587F71900E009B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24D7104A2587F71900E009B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D7104B2587F71900E009B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24D7104D2587F71900E009B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D7104E2587F71900E009B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24D7105B2587F71900E009B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D7105C2587F71900E009B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24D7105E2587F71900E009B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D7105F2587F71900E009B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		24D7106C2587F71900E009B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24D7106D2587F71900E009B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24D7107D2587F71900E009B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24D7107E2587F71900E009B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		24D710802587F71900E009B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				INFOPLIST_FILE = "dogRunner iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24D710812587F71900E009B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				INFOPLIST_FILE = "dogRunner iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D710832587F71900E009B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				INFOPLIST_FILE = "dogRunner tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.2;
+			};
+			name = Debug;
+		};
+		24D710842587F71900E009B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "tvOS App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				INFOPLIST_FILE = "dogRunner tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24D710862587F71900E009B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dogRunner macOS/dogRunner_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "dogRunner macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		24D710872587F71900E009B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dogRunner macOS/dogRunner_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6T98LR668F;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "dogRunner macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eloware.private.dogRunner;
+				PRODUCT_NAME = dogRunner;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24D710392587F71700E009B7 /* Build configuration list for PBXProject "dogRunner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D7107D2587F71900E009B7 /* Debug */,
+				24D7107E2587F71900E009B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D7107F2587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D710802587F71900E009B7 /* Debug */,
+				24D710812587F71900E009B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D710822587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D710832587F71900E009B7 /* Debug */,
+				24D710842587F71900E009B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D710852587F71900E009B7 /* Build configuration list for PBXNativeTarget "dogRunner macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24D710862587F71900E009B7 /* Debug */,
+				24D710872587F71900E009B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24D710362587F71700E009B7 /* Project object */;
+}
